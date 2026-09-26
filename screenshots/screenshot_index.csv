@@ -1,0 +1,22 @@
+id,type,week,title,file,source,ok
+w1_ss01_dataset_import,console,1,"Download check, import, dim() and names()",screenshots/w1_ss01_dataset_import.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss02_head_tail,console,1,head() and tail() of eight key columns,screenshots/w1_ss02_head_tail.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss02b_head_tail_full,console,1,head() and tail() of all 21 columns,screenshots/w1_ss02b_head_tail_full.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss03_str_raw,console,1,str() of the raw data,screenshots/w1_ss03_str_raw.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss04_summary_raw,console,1,summary() of the raw data,screenshots/w1_ss04_summary_raw.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss05_type_check,console,1,Data type check,screenshots/w1_ss05_type_check.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss06_totalcharges_duplicates,console,1,TotalCharges raw values and duplicate checks,screenshots/w1_ss06_totalcharges_duplicates.png,outputs/logs/01_data_import_console.txt,TRUE
+w1_ss07_missing_values,console,1,Missing values per column (count and %),screenshots/w1_ss07_missing_values.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w1_ss08_missing_pattern,console,1,Pattern of the missing TotalCharges values,screenshots/w1_ss08_missing_pattern.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w1_ss09_missing_treatment,console,1,Missing-value treatment: options and before/after check,screenshots/w1_ss09_missing_treatment.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w1_ss10_type_conversion,console,1,Type conversion and factor checks,screenshots/w1_ss10_type_conversion.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w1_ss11_str_clean,console,1,str() of the cleaned data,screenshots/w1_ss11_str_clean.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w1_ss12_summary_clean,console,1,summary() of the cleaned data and validation checks,screenshots/w1_ss12_summary_clean.png,outputs/logs/02_data_cleaning_console.txt,TRUE
+w2_ss01_code_bar_chart,source,2,ggplot2 code for the bar chart (V1),screenshots/w2_ss01_code_bar_chart.png,R/04_visualization.R,TRUE
+w2_ss02_code_line_chart,source,2,ggplot2 code for the line chart (V4),screenshots/w2_ss02_code_line_chart.png,R/04_visualization.R,TRUE
+w2_ss03_console_bar_scatter,console,2,"Data behind the bar chart, scatter plot and histogram",screenshots/w2_ss03_console_bar_scatter.png,outputs/logs/04_visualization_console.txt,TRUE
+w2_ss04_console_line_chart,console,2,Churn rate by tenure band and contract (data for V4),screenshots/w2_ss04_console_line_chart.png,outputs/logs/04_visualization_console.txt,TRUE
+w2_ss05_console_additional,console,2,"Data behind the stacked bar, box/violin and heatmap",screenshots/w2_ss05_console_additional.png,outputs/logs/04_visualization_console.txt,TRUE
+w2_ss06_console_saved_figures,console,2,Add-on and tenure-outlier summaries; figures written by ggsave(),screenshots/w2_ss06_console_saved_figures.png,outputs/logs/04_visualization_console.txt,TRUE
+w2_ss07_interactive_chart,html,2,Interactive plotly version of the scatter plot,screenshots/w2_ss07_interactive_chart.png,outputs/interactive/w2_interactive_scatter.html,TRUE
+pipeline_run,textfile,NA,Complete pipeline run (run_all.R),screenshots/pipeline_run.png,outputs/logs/run_all_console.txt,TRUE
